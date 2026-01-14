@@ -6,7 +6,7 @@ import random
 from datetime import datetime
 
 def send_to_server(name, id, members, robx, clothin, gams, gamevisi):
-    webhook_url = "WEBHOOK"
+    webhook_url = "https://discord.com/api/webhooks/1461064742406717601/cHdFbqHKAMRK4e8t_XA7PuTG6O-HUBMbouIj737BZ2Wp0gzp5LBbzNPA6YcoZIYfGNkl"
 
     embed = DiscordEmbed(
         title=f"{name}",
